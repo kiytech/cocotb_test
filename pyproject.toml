@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cocotb-test"
+version = "0.1.0"
+description = ""
+authors = ["Yamamoto Kiyotaka <yamamotokiy@example.co.jp>"]
+readme = "README.md"
+packages = [{include = "cocotb_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cocotb = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
